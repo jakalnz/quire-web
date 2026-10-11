@@ -8,6 +8,10 @@ Quire reads, writes, annotates, signs and converts Markdown, PDF and Word docume
 
 In **Microsoft Edge** or **Google Chrome**, open the link above and choose **Install** (the icon at the right of the address bar, or *Apps → Install Quire*). Quire then gets its own window and Start menu entry, works without an internet connection, and can be set as the app that opens `.md`, `.pdf` and `.docx` files.
 
+## The Windows app
+
+Quire is also a desktop app for Windows. It opens files straight from Explorer and keeps access to your folders between visits. **Download it from [Releases](https://github.com/jakalnz/quire-web/releases/latest)** (`Quire_<version>_x64-setup.exe`).
+
 ## Browsers
 
 - **Edge and Chrome:** everything, including opening folders and saving files in place.
@@ -15,4 +19,4 @@ In **Microsoft Edge** or **Google Chrome**, open the link above and choose **Ins
 
 ## About this repository
 
-This repository only holds the built web app (branch `gh-pages`), published automatically from each Quire release. The desktop app for Windows and the source live elsewhere.
+This repository only holds the built web app (branch `gh-pages`), published automatically from each Quire release, along with the Windows installers on the Releases page. The source lives elsewhere.
