@@ -1,0 +1,55 @@
+{
+  "name": "Quire",
+  "short_name": "Quire",
+  "description": "Read, write, annotate, sign and convert Markdown, PDF and Word documents.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf8f1",
+  "theme_color": "#26262b",
+  "icons": [
+    {
+      "src": "icons/512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": {
+        "text/markdown": [
+          ".md",
+          ".markdown",
+          ".mdown",
+          ".mkd"
+        ],
+        "text/plain": [
+          ".txt"
+        ],
+        "application/pdf": [
+          ".pdf"
+        ],
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document": [
+          ".docx"
+        ]
+      }
+    }
+  ],
+  "launch_handler": {
+    "client_mode": "focus-existing"
+  }
+}
